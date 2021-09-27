@@ -36,7 +36,7 @@ edit inc/config.php and set those
     )
 ```
 
-## Sample
+## Usage
 Simple usage edit index.php:
 ```php
 $data = array (
