@@ -35,3 +35,15 @@ edit inc/config.php and set those
         'collation' => 'utf8mb4_unicode_ci'
     )
 ```
+
+## Sample
+Simple usage edit index.php:
+```php
+$data = array (
+	"amount"=>1,
+	"currency"=>"USD",
+	"coin"=>"BTC",	
+	"order_id"=>'T0001',	
+	"notifyurl"=>$notifyURL,	
+);
+```
