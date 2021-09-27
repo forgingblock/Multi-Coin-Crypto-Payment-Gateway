@@ -12,6 +12,7 @@ Open a MySql client (phpMyAdmin, etc.), create a new database (and user) and imp
 
 ## Configuration
 edit inc/config.php and set those
+```php
 'app' => array(
         'debug' => true,    
 		'forgingblock_token' => '',        
@@ -33,3 +34,4 @@ edit inc/config.php and set those
         'charset' => 'utf8mb4',
         'collation' => 'utf8mb4_unicode_ci'
     )
+```
