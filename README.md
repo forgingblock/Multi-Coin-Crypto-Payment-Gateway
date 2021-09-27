@@ -37,7 +37,7 @@ edit inc/config.php and set those
 ```
 
 ## Usage
-Simple usage edit index.php:
+Simple usage edit index.php
 ```php
 $data = array (
 	"amount"=>1,
