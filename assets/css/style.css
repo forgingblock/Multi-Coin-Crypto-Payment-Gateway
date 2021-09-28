@@ -1,0 +1,103 @@
+.qr-display {
+	display: block; 
+	width: 250px !important;
+}
+.copy-img {
+	width: 25px;margin-bottom: 10px;
+}
+
+.wallet-text {
+	font-size: 1.4rem !important;
+}
+
+.wallet-text-2 {
+    font-size: 1.3rem !important;
+}
+
+.display-hide {
+	display: none !important;
+}
+ #timer div{
+	display: inline !important;
+}
+
+.text-green {
+	color: #5cb85c !important;
+}
+
+.owl {
+	word-wrap: break-word !important;
+}
+
+.block {
+background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='5' ry='5' stroke='%23333' stroke-width='2' stroke-dasharray='6%2c 14' stroke-dashoffset='8' stroke-linecap='square'/%3e%3c/svg%3e");
+border-radius: 5px;
+padding-left: 5px;
+padding-right: 5px;
+padding-top: 2px;
+padding-bottom: : 2px;
+}
+
+.multicoin-body{
+    background-color: #F2F4F6;
+}
+
+.icon-sm{
+	 width: 25px;
+}
+
+.t-x2{
+	font-size: 20px;
+}
+
+.list-group li:hover {
+    cursor: pointer;
+}
+
+.send-amount
+{
+	text-align: center;
+	margin-bottom: 12px;
+}
+
+.payment-paid{
+	color: #27ae60;
+}
+
+.img-70{
+	width: 70px;
+}
+
+
+.progress {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: 0rem !important;
+}
+
+.may-count-padder{
+	margin-top: -20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.count-holder{
+	padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+
+
+.grcode-modal{
+	height: 160px; width: 160px;
+}
+
+
+[v-cloak] {
+  display:none;
+}

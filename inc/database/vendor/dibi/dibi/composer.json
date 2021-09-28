@@ -1,0 +1,36 @@
+{
+	"name": "dibi/dibi",
+	"description": "Dibi is Database Abstraction Library for PHP",
+	"keywords": ["database", "dbal", "mysql", "postgresql", "sqlite", "mssql", "sqlsrv", "oracle", "access", "pdo", "odbc"],
+	"homepage": "https://dibiphp.com",
+	"license": ["BSD-3-Clause", "GPL-2.0-only", "GPL-3.0-only"],
+	"authors": [
+		{
+			"name": "David Grudl",
+			"homepage": "https://davidgrudl.com"
+		}
+	],
+	"require": {
+		"php": ">=7.1"
+	},
+	"require-dev": {
+		"tracy/tracy": "~2.2",
+		"nette/tester": "~2.0",
+		"phpstan/phpstan": "^0.12"
+	},
+	"replace": {
+		"dg/dibi": "*"
+	},
+	"autoload": {
+		"classmap": ["src/"]
+	},
+	"scripts": {
+		"phpstan": "phpstan analyse --autoload-file vendor/autoload.php --level 5 --configuration tests/phpstan.neon src",
+		"tester": "tester tests -s"
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "4.1-dev"
+		}
+	}
+}
