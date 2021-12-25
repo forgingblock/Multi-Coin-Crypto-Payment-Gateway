@@ -49,4 +49,5 @@ $data = array (
 	"order_id"=>'T0001',	
 	"notifyurl"=>$notifyURL,	
 );
+//for tether coins use like this "coin"=>"eth-token/USDT",	
 ```
