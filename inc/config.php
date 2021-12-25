@@ -3,8 +3,8 @@ $GLOBALS['config'] = array(
     
     'app' => array(
         'debug' => true,    
-		'forgingblock_token' => '94347689910013805610334850562608268643022664040110117578985177904287039759650',        
-		'forgingblock_trade' => '69NdNjskDcX1n4NU2rggwbCTHPNcPLGR9ym5kHEMZQiL',        		
+		'forgingblock_token' => '',        
+		'forgingblock_trade' => '',        		
 		'forgingblock_env' => 'test',		
         'url' => 'http://localhost/forgingblock-multicoin/',		        
         'expiring_time' => 43200,
@@ -15,8 +15,8 @@ $GLOBALS['config'] = array(
     //Mysql Database connection
     'mysql' => array(                
         'database' => 'forgingblock_mcrypto',
-        'username' => 'root',               
-        'password' => 'mass00',        
+        'username' => '',               
+        'password' => '',        
         'hostname' => 'localhost',        
         'prefix' => '',                
         'driver' => 'mysqli',                
